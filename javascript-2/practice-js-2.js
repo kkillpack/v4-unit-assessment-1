@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = 'Git is an application that will monitor your files as you code, note changes, and save copies that can then be accessed by yourself or others'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = 'GitHub is the provider of the GIT application'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -32,6 +34,10 @@
     Create an object called 'init' with 'description' and 'code' properties 
     following the guidelines above to describe the init command.
 */
+let init = {
+    description: 'init is used to create a new repository in GIT',
+    code: 'git init (in command screen)'
+}
 
 //CODE HERE
 
@@ -40,6 +46,10 @@
     Create an object called 'clone' with 'description' and 'code' properties 
     following the guidelines above to describe the clone command.
 */
+let clone = {
+    description: 'clone is used to make a copy of an existing repository',
+    code: 'git clone "url of desired repository"'
+}
 
 //CODE HERE
 
@@ -50,6 +60,11 @@
 */
 
 //CODE HERE
+let status = {
+    description: 'status shows you the changes that have not yet been updated or tracked by GIT',
+    code: 'git status'
+}
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +73,10 @@
 */
 
 //CODE HERE
+let add = {
+    description: 'add command acces files into your working directory or repository',
+    code: 'git add'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +85,10 @@
 */
 
 //CODE HERE
+let commit = {
+    description: 'git commit saves the currrent files and adds comments to kknow what stage the work is at',
+    code: 'git commit -m "comment here"'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +97,10 @@
 */
 
 //CODE HERE
+let addRemote = {
+    description: 'git remote add just creates an entry in your git config that specifies a name for a particular URL',
+    codee: 'git remote add ""origin url" / "name"'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +109,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: 'git push updates the remote branch with local commits',
+    code: 'git push'
+}
